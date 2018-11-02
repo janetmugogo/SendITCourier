@@ -1,0 +1,84 @@
+.box{
+  background:white;
+  width:500px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding:0px 0px 70px 0px;
+  border: #af0960 4px solid; 
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.username{
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:300px;
+  color:#000000;
+  margin-top:10px;
+  font-size:1em;
+  padding-left: 40px;
+  border-radius:4px;
+}
+.email{
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:300px;
+  padding-left: 40px;
+  color:#000000;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.password{
+  border-radius:4px;
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  padding: 8px;
+  padding-left: 40px;
+  color:#000000;
+  width:300px;
+  margin-top:10px;
+  font-size:1em;
+}
+.confirm_password{
+  border-radius:4px;
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  padding: 8px;
+  padding-left: 40px;
+  color:#000000;
+  width:300px;
+  margin-top:10px;
+  font-size:1em;
+}
+
+.btn1{
+  background:#af0960;
+  width:130px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:#FFFFFF;
+  border-radius:4px;
+  margin-top:20px;
+  margin-bottom:20px;
+  float:left;
+  text-align: center;
+  margin-left:16px;
+  font-weight:800;
+  font-size:1em;
+}
+.p{
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+}
+.loginform p{
+  text-align: center;
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+}
