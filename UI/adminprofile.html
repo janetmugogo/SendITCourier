@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/signup.css">
+  <link rel="stylesheet" type="text/css" href="./css/profile.css">
+  <link rel="stylesheet" type="text/css" href="./css/ordertable.css">
+  <link rel="stylesheet" type="text/css" href="./css/adminprofile.css">
+</head>
+<body>
+<div class="nav">
+  <!-- <p>SendIT</p> -->
+  <a class="active" href="../index.html">Home</a>
+      <a href="#" >About Us</a>
+      <a href="#" >Services</a>
+      <a href="#" >Contact Us</a>
+
+        <div class="nav-right">
+         <a href="createdeliveryorder.html" >Create Delivery Order</a>
+         <a href="createdelivery.html" >My Order</a>
+         <a href="createaccount.html" >Sign Up</a>
+          <a href="login.html" >Log In</a>
+          <a href="profile.html" >My Profile</a>
+          <a href="adminprofile.html" >Admin Profile</a>
+        </div>
+</div>
+<h4> Delivered Orders </h4>
+<div class="ordertable">
+    <table>
+      <tr>
+        <th>ORDER ID</th>
+        <th>PICKUP LOCATION</th>
+        <th>DESTINATION ADDRESS</th>
+        <th>PACKAGE</th>
+        <th>QUANTITY</th>
+        <th>WEIGHT(Kg)</th>
+        <th>PRICE</th>
+        <th>STATUS</th>
+        <th>Update location</th>
+        
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Nairobi</td>
+        <td>Mombasa 31141-00100</td>
+        <td>Box</td>
+        <td>1</td>
+        <td>2kg</td>
+        <td>Ksh.100</td>
+        <td><select class="status">
+              <option value="0">delivered</option>
+              <option value="1">in transit</option>
+              
+          </select></td>
+          <td><button class="btl">change location</button></td>
+       
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Kakamega</td>
+        <td>Bunyore 9876-00100</td>
+        <td>Box</td>
+        <td>2</td>
+        <td>4kg</td>
+        <td>Ksh.800</td>
+        <td><select class="status">
+              <option value="status">delivered</option>
+              <option value="status">in transit</option>
+              
+          </select></td>
+          <td><button class="btl">change location</button></td>
+        
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Mombasa</td>
+        <td>Kisumu 3678-2000</td>
+        <td>Parcel</td>
+        <td>5</td>
+        <td>2kg</td>
+        <td>Ksh.300</td>
+        <td><select class="status">
+              <option value="0">delivered</option>
+              <option value="1">in transit</option>
+              
+          </select></td>
+          <td><button class="btl">change location</button></td>
+        
+      </tr>
+    </table>
+    <h4> Orders in transit </h4>
+    <table>
+      <tr>
+        <th>ORDER ID</th>
+        <th>PICKUP LOCATION</th>
+        <th>DESTINATION ADDRESS</th>
+        <th>PACKAGE</th>
+        <th>QUANTITY</th>
+        <th>WEIGHT(Kg)</th>
+        <th>PRICE</th>
+        <th>STATUS</th>
+        <th>Update location</th>
+        
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Kisumu</td>
+        <td>Bungoma 2389-00300</td>
+        <td>Parcel</td>
+        <td>3</td>
+        <td>1kg</td>
+        <td>Ksh.300</td>
+        <td><select class="status">
+              <option value="0">in transit</option>
+              <option value="1">delivered</option>
+              
+          </select></td>
+          <td><button class="btl">change location</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kiambu</td>
+        <td>Machakos 5441-00500</td>
+        <td>Box</td>
+        <td>2</td>
+        <td>5kg</td>
+        <td>Ksh.1000</td>
+        <td><select class="status">
+              <option value="status">in transit</option>
+              <option value="status">delivered</option>
+              
+          </select></td>
+          <td><button class="btl">change location</button></td>
+        
+      </tr>
+    </table>
+
+<div class="footer">
+&copy; Copyright 2018 SendIT
+</div>
+</body>
+</html>
