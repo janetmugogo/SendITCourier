@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/signup.css">
+  <link rel="stylesheet" type="text/css" href="./css/delivery.css">
+
+</head>
+<body>
+<div class="nav">
+  <!-- <p>SendIT</p> -->
+  <a class="active" href="../index.html">Home</a>
+      <a href="#" >About Us</a>
+      <a href="#" >Services</a>
+      <a href="#" >Contact Us</a>
+
+        <div class="nav-right">
+         <a href="createdelivery.html" >Create Delivery Order</a>
+         <a href="createdelivery.html" >My Order</a>
+         <a href="createaccount.html" >Sign Up</a>
+          <a href="login.html" >Log In</a>
+          <a href="createdeliveryorder.html" >My Profile</a>
+          <a href="createdeliveryorder.html" >Admin Profile</a>
+        </div>
+</div>
+<div class="createdeliveryform">
+    <form method="post" action="createdelivery.html">
+       <div class="box">
+          
+        <p style="text-align: center;font-size: 18px;color: #000000; font-weight: bold;">CREATE YOUR DELIVERY ORDER</p>
+        <br>
+        <input type="name" name="name" value="Name" class="name"/>
+        <input type="phonenumber" name="phonenumber" value="Phone Number" class="phonenumber"/>
+        <input type="idnumber" name="idnumber" value="National ID Number" class="idnumber"/>
+        <input type="location" name="location" value="Pickup location" class="location"/>
+        <input type="address" name="address" value="Destination Address" class="address"/>
+        <input type="weight" name="weight" value="Weight" class="weight"/>
+
+        <br>
+        <br>
+        <label >
+          Quantity
+          <select name=Quantity>
+              <option value="box">1</option>
+              <option value="box">2</option>
+              <option value="box">3</option>
+          </select>
+        </label>
+        <br>
+        <br>
+        <label >
+          Type of package
+          <select name=Typeofpackage>
+              <option value="box">Box</option>
+              <option value="box">Letter</option>
+          </select>
+        </label>
+
+         <br>
+
+          <a href="#">
+             <div class="btn1">Submit</div>
+          </a>
+            
+      </div>
+    </form>
+
+
+
+<div class="footer">
+&copy; Copyright 2018 SendIT
+</div>
+</body>
+</html>
