@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Profile</title>
+  <title>My Profile</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" type="text/css" href="./css/main.css">
@@ -12,40 +12,37 @@
 <body>
 <div class="nav">
   <!-- <p>SendIT</p> -->
-  <a class="active" href="../index.html">Home</a>
+  <a href="../index.html">Home</a>
       <a href="#" >About Us</a>
       <a href="#" >Services</a>
       <a href="#" >Contact Us</a>
 
         <div class="nav-right">
          <a href="createdelivery.html" >Create Delivery Order</a>
-         <a href="vieworder.html" >My Order</a>
-         <a href="createaccount.html" >Sign Up</a>
-          <a href="login.html" >Log In</a>
+         <!-- <a href="vieworder.html" >My Order</a> -->
+         <!-- <a href="createaccount.html" >Sign Up</a> -->
+          <!-- <a href="login.html" >Log In</a> -->
           <a href="profile.html" >My Profile</a>
-          <a href="adminprofile.html" >Admin Profile</a>
+          <!-- <a href="adminprofile.html" >Admin Profile</a> -->
         </div>
 </div>
-<h2>MY PROFILE</h2>
-<div container class="avatars">
-   <div class="avatarimage">
-      <img src="./images/avatar.png" alt="Avatar"  width="120px;" height="180px;"  class="avatar">
-  </div>
-  <div class="info">
-    <p>Name:    Janet Mugogo</p>
-    <p>ID Number:   33156745</p>
-    <p>City:    Nairobi</p>
-    <p>Suburb:   Ruaraka</p>
-    <p>Address:  31141-00200</p>
-  </div>
-  <div class="orderinfo">
-    <p>Number of orders created: 5 </p>
-    <p>Number of delivered orders: 3</p>
-    <p>Number of orders in transit: 2</p>
-    
-  </div>
+<div class="sidenav">
+ <a href="../index.html">Home</a>
+ <a href="#">My Orders</a>
+
 </div>
-<h4> Delivered Orders </h4>
+<div class="content">
+ <div class="orderinfo">
+    <p>Number of orders created<br> 5 </p>
+</div>
+<div class="orderinfodelivered">
+   <p>Number of delivered orders <br> 3</p>
+</div>
+<div class="orderinfotransit">
+    <p>Number of orders in transit<br> 2</p>
+</div>
+ </div>
+ <h4> Delivered Orders </h4>
 <div class="ordertable">
     <table>
       <tr>
@@ -106,6 +103,8 @@
         <th>PRICE</th>
         <th>STATUS</th>
         <th>Action</th>
+        <th>Update location</th>
+
         
       </tr>
       <tr>
@@ -117,7 +116,9 @@
         <td>1kg</td>
         <td>Ksh.300</td>
         <td><button>Transit</button></td>
-        <td><button>Cancel</button></td>
+        <td><button onclick="myFunction()">Cancel</button></td>
+        </select></td>
+          <td><button class="btl">change location</button></td>
       </tr>
       <tr>
         <td>4</td>
@@ -128,13 +129,22 @@
         <td>5kg</td>
         <td>Ksh.1000</td>
         <td><button>Transit</button></td>
-         <td><button>Cancel</button></td>
+         <td><button onclick="myFunction()">Cancel</button></td>
+         </select></td>
+          <td><button class="btl">change location</button></td>
         
       </tr>
     </table>
-
+</div>
 <div class="footer">
 &copy; Copyright 2018 SendIT
 </div>
+
+<script>
+function myFunction() {
+    confirm("Do you want to cancel your undelivered order?");
+}
+</script>
+
 </body>
 </html>
