@@ -22,13 +22,72 @@ h2{
 }
 .orderinfo{
 	font-size: 14px;
-	background-color: #a39e9e;
+	background-color: #c6c2c2;
 	width: 30%;
+	margin-top: 10px;
+	padding: 6px 8px 6px 16px;
 }
+.orderinfodelivered{
+	font-size: 14px;
+	background-color: #c6c2c2;
+	width: 30%;
+	margin-top: 10px;
+	padding: 6px 8px 6px 16px;
+	margin-left: 20px;
+}
+.orderinfotransit{
+	font-size: 14px;
+	background-color: #c6c2c2;
+	width: 30%;
+	margin-top: 10px;
+	padding: 6px 8px 6px 16px;
+	margin-left: 20px;
+}
+
 p{
 	margin-left: 20px;
 	font-size: 16px;
 }
 h4{
 	text-align: center;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #65ABC4;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 59px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #004150;
+}
+.content{
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	display: flex;
+	width: 50%
+	background-color:#7f7a7a;
+}
+.content p{
+	color: #000000;
+}
+.ordertable{
+	margin-left: 190px;
+	font-size: 14px;
+	width: 80%
 }

@@ -1,62 +1,104 @@
-.body{
-	margin: 0;
-    padding: 0;
-
+body {
+  margin: 0;
+  
 }
-.nav{
-	background-color:#7f7a7a;
-	overflow: hidden;
-	width: 100%;
 
+.nav {
+  overflow: hidden;
+  background-color:#004150;
+  
 }
-/*.nav p{
+.nav p{
 	font-size: 12px;
 	font-weight: bolder;
 	color: #af0960;
-}*/
-.nav a{
-	color: #FFFFFF;
-	padding: 21px 21px 21px 21px;
+}
+
+.nav a {
+    color: #FFFFFF;
+	padding: 21px 21px;
 	text-align: center;
 	float:left;
 	font-weight: bold;
 	font-size: 15px;
 	text-decoration: none;
 }
-.nav a.active{
-	background-color: #af0960;
+
+.nav a:hover {
+  background-color: #65ABC4;
 	color: #FFFFFF;
 }
-.nav-rigt{
-	float: right;
-}
-.nav a:hover{
-	background-color: #af0960;
+
+.nav a.active {
+  background-color: #65ABC4;
 	color: #FFFFFF;
 }
+
+.nav-right {
+  float: right;
+}
+
 .footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	height: 5%;
 	color:#FFFFFF;
 	text-align: center;
-    background-color:#7f7a7a;
+    background-color:#004150;
  }
  .banner-image{
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   
  }
  .howitworks{
- 	background-color: #af0960;
- 	margin-top: 15px;
- 	margin-bottom: 10px;
- 	height: 167px;
+  font-size: 28px;
+  padding: 0px 10px;
+  display: flex;
+  width: 50%
+  background-color:#7f7a7a;
+ 	/*background-color: #af0960;*/
+ 	/*margin-top: 15px;*/
+ 	/*margin-bottom: 10px;*/
+ 	/*height: 167px;*/
+ }
+ .placeorder{
+  font-size: 14px;
+  background-color: #65ABC4;
+  width: 30%;
+  margin-top: 10px;
+  padding: 6px 8px 6px 16px;
+  margin-left: 20px;
+ }
+ .pickup{
+  font-size: 14px;
+  background-color: #65ABC4;
+  width: 30%;
+  margin-top: 10px;
+  padding: 6px 8px 6px 16px;
+  margin-left: 20px;
+ }
+ .destination{
+  font-size: 14px;
+  background-color: #65ABC4;
+  width: 30%;
+  margin-top: 10px;
+  padding: 6px 8px 6px 16px;
+  margin-left: 20px;
+ }
+ .pay{
+  font-size: 14px;
+  background-color: #65ABC4;
+  width: 30%;
+  margin-top: 10px;
+  padding: 6px 8px 6px 16px;
+  margin-left: 20px;
  }
  .howitworks p{
  	
-	font-size: 19px;
+	font-size: 20px;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-align: center;
  }
  .column{
@@ -76,6 +118,7 @@
   height: 30px;
   padding-top:5px;
   padding-bottom:5px;
+
   color:#FFFFFF;
   border-radius:4px;
  /* margin-top:20px;*/

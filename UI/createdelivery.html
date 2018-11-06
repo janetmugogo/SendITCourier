@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Signup</title>
+  <title>Create delivery</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" type="text/css" href="./css/main.css">
@@ -32,18 +32,18 @@
           
         <p style="text-align: center;font-size: 18px;color: #000000; font-weight: bold;">CREATE YOUR DELIVERY ORDER</p>
         <br>
-        <input type="name" name="name" value="Name" class="name"/>
-        <input type="phonenumber" name="phonenumber" value="Phone Number" class="phonenumber"/>
-        <input type="idnumber" name="idnumber" value="National ID Number" class="idnumber"/>
-        <input type="location" name="location" value="Pickup location" class="location"/>
-        <input type="address" name="address" value="Destination Address" class="address"/>
-        <input type="weight" name="weight" value="Weight" class="weight"/>
+        <input type="name" name="name"  placeholder="Name" class="name"/>
+        <input type="phonenumber" name="phonenumber" placeholder="Phone Number" class="phonenumber"/>
+        <input type="idnumber" name="idnumber"  placeholder="National ID Number" class="idnumber"/>
+        <input type="location" name="location"  placeholder="Pickup location" class="location"/>
+        <input type="address" name="address"  placeholder="Destination Address" class="address"/>
+        <input type="weight" name="weight"  placeholder="Weight" class="weight"/>
 
         <br>
         <br>
         <label >
           Quantity
-          <select name=Quantity>
+          <select class=quantity>
               <option value="box">1</option>
               <option value="box">2</option>
               <option value="box">3</option>
@@ -51,17 +51,10 @@
         </label>
         <br>
         <br>
-        <label >
-          Type of package
-          <select name=Typeofpackage>
-              <option value="box">Box</option>
-              <option value="box">Letter</option>
-          </select>
-        </label>
 
          <br>
 
-          <a href="#">
+          <a href="login.html">
              <div class="btn1">Submit</div>
           </a>
             
