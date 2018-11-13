@@ -3,11 +3,11 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .phonenumber{
@@ -15,11 +15,11 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .idnumber{
@@ -27,11 +27,11 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .location{
@@ -39,11 +39,11 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .address{
@@ -51,11 +51,11 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .weight{
@@ -63,15 +63,16 @@
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
   padding: 8px;
-  width:300px;
+  width:320px;
   color:#000000;
   margin-top:10px;
   font-size:1em;
-  padding-left: 40px;
+  padding-left: 150px;
   border-radius:4px;
 }
 .quantity{
-  
+  padding-left: 150px;
+  width:320px;
   padding: 5px 30px;
   background-color: #7f7a7a;
   color: #ffffff;
