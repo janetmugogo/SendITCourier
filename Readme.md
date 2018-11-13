@@ -35,4 +35,4 @@ You can view the user interface designs[Here](https://janetmugogo.github.io/Send
 
 ### Landingpage
 
-![SendITCourier](/home/mugogojanet/Pictures/landingpage.png?raw=true "Title")
+![SendITCourier](/home/mugogojanet/Pictures/landingpage.png)
