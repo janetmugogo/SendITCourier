@@ -1,4 +1,4 @@
-SendITCourier
+<b>SendITCourier</b>
 <br>
 SendIT is a courier service that helps users deliver parcels to different destinations, and it provides courier quotes based on weight categories. With this application, users are able to create orders, view all their orders, and they can cancel an order which is in transit, and update location i.e, destination of a parcel.
 <br>
