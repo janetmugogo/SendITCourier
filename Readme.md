@@ -32,7 +32,3 @@ You can view the user interface designs[Here](https://janetmugogo.github.io/Send
 - open terminal while in that folder<br>
 - git init(initialize)<br>
 - git clone https://github.com/janetmugogo/SendITCourier.git
-
-### Landingpage
-
-![SendITCourier](/home/mugogojanet/Pictures/landingpage.png)
