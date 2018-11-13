@@ -1,4 +1,4 @@
-SendITCourier
+# SendITCourier
 
 SendIT is a courier service that helps users deliver parcels to different destinations, and it provides courier quotes based on weight categories. With this application, users are able to create orders, view all their orders, and they can cancel an order which is in transit, and update location i.e, destination of a parcel.
 
@@ -7,26 +7,32 @@ This Repo contains the UI (user interface) designs that I have implemented at th
 
 You can view the user interface designs Here..
 
-These are the features of the App:
+# These are the features of the App:
+
 A user sign-up and sign-in page
-A page/pages where a user can do the following:
-                    Create a parcel delivery order.
-                   Change the destination of a parcel delivery order.
-                   See the details of a parcel delivery order such as the pickup location,   
-                   destination, and price.
-                   Cancel a parcel delivery order.
-                   View all parcel delivery orders they have created
-A page/pages for a user’s profile which, displays:
-                      The number of parcel delivery order that have been delivered.
-                      The number of parcel delivery orders that are yet to be delivered (in transit).
-                      List of all parcel delivery orders.
-A page/pages where an Admin can do the following:
-                      Change the status of a parcel delivery order.
-                      Change the present location of a parcel delivery order.
-The App Dependencies
+
+A page/pages where a user can do the following**
+Create a parcel delivery order.
+Change the destination of a parcel delivery order.
+See the details of a parcel delivery order such as the pickup location,   
+Destination, and price.
+Cancel a parcel delivery order.
+View all parcel delivery orders they have created
+                   
+**A page/pages for a user’s profile which, displays:**
+ 1.The number of parcel delivery order that have been delivered.
+ 2.The number of parcel delivery orders that are yet to be delivered (in transit).
+ 3.List of all parcel delivery orders.
+                      
+**A page/pages where an Admin can do the following:**
+ 1.Change the status of a parcel delivery order.
+ 2.Change the present location of a parcel delivery order.
+                      
+**The App Dependencies**
 HTML
 CSS
-Installation/How to run the application locally
+
+**Installation/How to run the application locally**
 create a folder in your local workspace
 open terminal while in that folder
 git init(initialize)
